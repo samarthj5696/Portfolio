@@ -1,0 +1,81 @@
+@font-face {
+  font-family: InterBold;
+  src: url(./static/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: InterLight;
+  src: url(./static/Inter-Light.ttf);
+}
+.block1 {
+  height: 350px;
+  margin: 100px;
+  color: white;
+  /* margin-left: 100px;
+  margin-right: 100px; */
+  font-family: InterLight;
+  font-size: xx-large;
+  background-color: #1f202b;
+  padding: 80px;
+  /* border-radius: 10px; */
+}
+.block2 {
+  height: 650px;
+  margin: 100px;
+  color: white;
+  /* margin-left: 100px;
+    margin-right: 100px; */
+  font-family: InterLight;
+  font-size: xx-large;
+  background-color: #1f202b;
+  padding: 80px;
+  /* border-radius: 10px; */
+}
+.block3 {
+  height: 400px;
+  margin: 100px;
+  color: white;
+  /* margin-left: 100px;
+    margin-right: 100px; */
+  font-family: InterLight;
+  font-size: xx-large;
+  background-color: #1f202b;
+  padding: 80px;
+  display: flex;
+  align-items: center;
+  /* border-radius: 10px; */
+}
+.block4 {
+  height: 400px;
+  margin: 100px;
+  color: white;
+  /* margin-left: 100px;
+      margin-right: 100px; */
+  font-family: InterLight;
+  font-size: xx-large;
+  background-color: #1f202b;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  /* border-radius: 10px; */
+}
+body {
+  background-color: #1e1e1e;
+}
+.btn {
+  background-color: white;
+  color: #1f202b;
+  font-weight: bolder;
+  font-size: medium;
+  border: 0cm;
+  width: 120px;
+  height: 40px;
+  border-radius: 40px;
+  margin-top: 15px;
+}
+.line1_small_text {
+  font-family: InterLight;
+  font-size: x-small;
+  margin-right: 400px;
+  margin-top: 10px;
+}
