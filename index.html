@@ -10,6 +10,7 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+    <script defer src="app.js"></script>
   </head>
 
   <body>
@@ -42,15 +43,15 @@
           <div
             id="carouselExampleFade"
             class="carousel slide carousel-fade"
-            style="width: 600px"
+            style="height: 250px; width: 400px"
           >
             <div class="carousel-inner">
-              <div class="carousel-item active">
+              <div class="carousel-item">
                 <img
                   src="./1.png"
                   class="d-block w-100"
                   alt="..."
-                  style="height: 360px"
+                  style="width: 100%; height: 100%; object-fit: cover"
                 />
                 <div
                   style="margin-top: 10px"
@@ -80,7 +81,7 @@
                   src="./2.jpg"
                   class="d-block w-100"
                   alt="..."
-                  style="height: 360px"
+                  style="width: 100%; height: 100%; object-fit: cover"
                 />
                 <div
                   style="margin-top: 10px"
@@ -104,12 +105,12 @@
                   </p>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item active">
                 <img
                   src="./3.jpg"
                   class="d-block w-100"
                   alt="..."
-                  style="height: 360px"
+                  style="width: 100%; height: 100%; object-fit: cover"
                 />
                 <div
                   style="margin-top: 10px"
@@ -140,7 +141,7 @@
                   src="./4.png"
                   class="d-block w-100"
                   alt="..."
-                  style="height: 360px"
+                  style="width: 100%; height: 100%; object-fit: cover"
                 />
                 <div
                   style="margin-top: 10px"
@@ -170,7 +171,7 @@
                   src="./5.jpg"
                   class="d-block w-100"
                   alt="..."
-                  style="height: 360px"
+                  style="width: 100%; height: 100%; object-fit: cover"
                 />
                 <div
                   style="margin-top: 10px"
@@ -200,7 +201,7 @@
                   src="./6.jpg"
                   class="d-block w-100"
                   alt="..."
-                  style="height: 360px"
+                  style="width: 100%; height: 100%; object-fit: cover"
                 />
                 <div
                   style="margin-top: 10px"
@@ -253,21 +254,14 @@
           </div>
         </div>
         <div class="vl"></div>
-        <div style="font-weight: bold; margin: auto 0">
+        <div class="heads" style="margin-right: 60px; margin-left: 60px">
           &#60;Personal Projects&gt;
         </div>
       </div>
     </div>
 
-    <div class="block3">
-      <div
-        style="
-          display: inline;
-          font-weight: bold;
-          margin: auto 0;
-          position: relative;
-        "
-      >
+    <div class="block3 visible">
+      <div class="heads" style="margin-right: 40px; margin-left: 40px">
         &#60;Work Experience&gt;
       </div>
       <div class="vl"></div>
@@ -283,7 +277,7 @@
               Software Development
             </div>
           </div>
-          <div style="font-size: small">
+          <div style="font-size: x-small">
             <div>
               – Managed and debugged more than 20 microservices with Kubernetes
               and ensured their functionality.
@@ -308,7 +302,7 @@
               Operations Management
             </div>
           </div>
-          <div style="font-size: small">
+          <div style="font-size: x-small">
             <div>
               – Developed a web scraping tool utilizing UI Path to automate data
               extraction from various websites.
@@ -322,7 +316,7 @@
       </div>
     </div>
 
-    <div class="block4">
+    <div class="block4 visible">
       <div style="display: inline">
         <div
           style="background-color: #44454d; padding: 10px; margin-bottom: 10px"
@@ -335,7 +329,7 @@
               Head of Design and Publicity
             </div>
           </div>
-          <div style="font-size: small">
+          <div style="font-size: x-small">
             <div>
               – Achieved 40% growth in participant numbers for the institute’s
               technical event, compared to the previous year.
@@ -354,7 +348,7 @@
             </div>
             <div style="font-size: small; font-style: italic">Team Member</div>
           </div>
-          <div style="font-size: small">
+          <div style="font-size: x-small">
             <div>
               – Handled and coordinated the setup of the Photography Exhibition
               during the college fests for 2 consecutive years.
@@ -367,7 +361,7 @@
         </div>
       </div>
       <div class="vl"></div>
-      <div style="display: inline; font-weight: bold; position: relative">
+      <div class="heads" style="margin-right: 30px; margin-left: 30px">
         &#60;Positions of Responsibility&gt;
       </div>
     </div>

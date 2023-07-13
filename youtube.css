@@ -10,52 +10,40 @@
 .block1 {
   margin: 100px;
   color: white;
-  /* margin-left: 100px;
-    margin-right: 100px; */
   font-family: InterLight;
   font-size: xx-large;
   background-color: #1f202b;
   padding: 80px;
-  /* border-radius: 10px; */
 }
 .block2 {
   margin: 100px;
   color: white;
-  /* margin-left: 100px;
-    margin-right: 100px; */
   font-family: InterLight;
   font-size: xx-large;
   background-color: #1f202b;
   padding: 80px;
-  /* border-radius: 10px; */
 }
 .block3 {
   height: 400px;
   margin: 100px;
   color: white;
-  /* margin-left: 100px;
-    margin-right: 100px; */
   font-family: InterLight;
   font-size: xx-large;
   background-color: #1f202b;
   padding: 80px;
   display: flex;
   align-items: center;
-  /* border-radius: 10px; */
 }
 .block4 {
   height: 400px;
   margin: 100px;
   color: white;
-  /* margin-left: 100px;
-      margin-right: 100px; */
   font-family: InterLight;
   font-size: xx-large;
   background-color: #1f202b;
   padding: 30px;
   display: flex;
   align-items: center;
-  /* border-radius: 10px; */
 }
 body {
   background-color: #1e1e1e;
@@ -71,6 +59,25 @@ body {
   border-radius: 40px;
   margin-top: 15px;
 }
+
+.visible {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(50%);
+  transition: all 1s;
+}
+
+@media (prefers-reduced-motion) {
+  .visible {
+    transition: none;
+  }
+}
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translateX(0%);
+}
+
 .line1_small_text {
   font-family: InterLight;
   font-size: x-small;
@@ -78,7 +85,15 @@ body {
   margin-top: 10px;
 }
 .vl {
-  border-left: 4px solid rgb(255, 255, 255);
+  border-left: 3px solid rgb(255, 255, 255);
   height: 300px;
   margin: auto auto;
+  opacity: 10%;
+}
+
+.heads {
+  font-family: InterBold;
+  font-size: x-large;
+  margin: auto 0;
+  font-size: larger;
 }
