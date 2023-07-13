@@ -8,11 +8,10 @@
   src: url(./static/Inter-Light.ttf);
 }
 .block1 {
-  height: 350px;
   margin: 100px;
   color: white;
   /* margin-left: 100px;
-  margin-right: 100px; */
+    margin-right: 100px; */
   font-family: InterLight;
   font-size: xx-large;
   background-color: #1f202b;
@@ -20,7 +19,6 @@
   /* border-radius: 10px; */
 }
 .block2 {
-  height: 650px;
   margin: 100px;
   color: white;
   /* margin-left: 100px;
@@ -78,4 +76,9 @@ body {
   font-size: x-small;
   margin-right: 400px;
   margin-top: 10px;
+}
+.vl {
+  border-left: 4px solid rgb(255, 255, 255);
+  height: 300px;
+  margin: auto auto;
 }
