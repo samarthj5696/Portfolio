@@ -68,7 +68,7 @@
 .block3-WorkEx {
   display: inline;
   /* flex: 1; */
-  min-width: 400px;
+  min-width: 12em;
 }
 .block3-WorkEx-background {
   background-color: #44454d;
