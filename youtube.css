@@ -7,13 +7,21 @@
   font-family: InterLight;
   src: url(./static/Inter-Light.ttf);
 }
+@font-face {
+  font-family: SemiBold;
+  src: url(./static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Regular;
+  src: url(./static/Inter-Regular.ttf);
+}
 .block1 {
-  margin: 100px;
+  margin: 10rem;
   color: white;
   font-family: InterLight;
-  font-size: xx-large;
+  font-size: 2rem;
   background-color: #1f202b;
-  padding: 80px;
 }
 .block2 {
   margin: 100px;
@@ -62,10 +70,10 @@ body {
 
 .buttonn:hover {
   transform: translateY(-2px);
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.121);
   border-width: 0 px;
   border-radius: 20px;
-  color: #1f202b;
+  color: #ffffff;
 }
 
 .visible {
@@ -89,8 +97,9 @@ body {
 .line1_small_text {
   font-family: InterLight;
   font-size: x-small;
-  margin-right: 400px;
   margin-top: 10px;
+  display: inline;
+  width: 300px;
 }
 .vl {
   border-left: 3px solid rgb(255, 255, 255);
@@ -100,8 +109,7 @@ body {
 }
 
 .heads {
-  font-family: InterBold;
-  font-size: x-large;
+  font-family: Regular;
   margin: auto 0;
   font-size: larger;
 }
@@ -110,5 +118,5 @@ body {
   transition-duration: 0.25s;
 }
 .hvr:hover {
-  transform: translateY(-5px);
+  transform: translateY(-10px);
 }
