@@ -17,14 +17,14 @@
   src: url(./static/Inter-Regular.ttf);
 }
 .block1 {
-  margin: 10rem;
+  margin: 4rem;
   color: white;
   font-family: InterLight;
   font-size: 2rem;
   background-color: #1f202b;
 }
 .block2 {
-  margin: 100px;
+  margin: 4rem;
   color: white;
   font-family: InterLight;
   font-size: xx-large;
@@ -33,7 +33,7 @@
 }
 .block3 {
   height: 400px;
-  margin: 100px;
+  margin: 4rem;
   color: white;
   font-family: InterLight;
   font-size: xx-large;
@@ -44,7 +44,7 @@
 }
 .block4 {
   height: 400px;
-  margin: 100px;
+  margin: 4rem;
   color: white;
   font-family: InterLight;
   font-size: xx-large;
