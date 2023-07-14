@@ -65,7 +65,36 @@
   min-height: 390px;
 }
 
+.block3-WorkEx {
+  display: inline;
+  /* flex: 1; */
+  min-width: 400px;
+}
+.block3-WorkEx-background {
+  background-color: #44454d;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
 .block4 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 4em;
+  margin-right: 4em;
+  justify-content: center;
+  align-items: center;
+  min-height: 390px;
+}
+
+.block4-WorkEx {
+  display: inline;
+  /* flex: 1; */
+  min-width: 400px;
+}
+.block4-WorkEx-background {
+  background-color: #44454d;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
 .technologies {
@@ -109,15 +138,12 @@
   .block3 {
     flex-wrap: wrap-reverse;
   }
-}
-
-.block3-WorkEx {
-  display: inline;
-}
-.block3-WorkEx-background {
-  background-color: #44454d;
-  padding: 10px;
-  margin-bottom: 10px;
+  .background {
+    padding: 0;
+  }
+  .side-bar {
+    display: none;
+  }
 }
 
 .LTI {
@@ -193,4 +219,25 @@
   opacity: 1;
   filter: blur(0px);
   transform: translateX(0%);
+}
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1f202b;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
