@@ -17,7 +17,11 @@
   src: url(./static/Inter-Regular.ttf);
 }
 body {
-  background-color: black;
+  background-image: url("./20.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /* background-color: black; */
 }
 
 .background {
