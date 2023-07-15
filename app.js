@@ -14,6 +14,7 @@ hiddenElements.forEach((el) => {
 });
 
 var loader = document.getElementById("preloader");
+loader.style.display = "none";
 window.addEventListener("load", function () {
   setTimeout(function () {
     loader.style.opacity = "0";
