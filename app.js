@@ -18,7 +18,9 @@ window.addEventListener("load", function () {
   setTimeout(function () {
     loader.style.opacity = "0";
     loader.style.transition = "opacity 2s";
-    // loader.style.display = "none";
+    setTimeout(function () {
+      loader.style.display = "none";
+    }, 1000);
   }, 1000); // Delay of 2 seconds (2000 milliseconds)
 });
 
