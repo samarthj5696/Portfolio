@@ -12,3 +12,16 @@ const hiddenElements = document.querySelectorAll(".visible");
 hiddenElements.forEach((el) => {
   observer.observe(el);
 });
+
+var loader = document.getElementById("preloader");
+window.addEventListener("load", function () {
+  setTimeout(function () {
+    loader.style.opacity = "0";
+    loader.style.transition = "opacity 2s";
+    // loader.style.display = "none";
+  }, 1000); // Delay of 2 seconds (2000 milliseconds)
+});
+
+// window.addEventListener("load", function () {
+//   loader.style.display = "none";
+// });

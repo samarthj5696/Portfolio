@@ -290,3 +290,12 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+#preloader {
+  background: black url(./galaxy.gif) no-repeat center center;
+  background-size: 20%;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
