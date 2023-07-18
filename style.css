@@ -17,7 +17,7 @@
   src: url(./static/Inter-Regular.ttf);
 }
 body {
-  background-image: url("./20.png");
+  background-image: url("./public/20.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
