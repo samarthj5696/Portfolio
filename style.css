@@ -179,6 +179,9 @@ body {
   .block4-heading {
     margin-bottom: 20px;
   }
+  .preloader {
+    display: none;
+  }
 }
 
 .LTI {
