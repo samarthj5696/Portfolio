@@ -20,27 +20,27 @@ const images = [
   },
   {
     label: "Unity Game Programmed in C#",
-    imgPath: "/CUBE_GAME.gif",
+    imgPath: "./CUBE_GAME.gif",
     link: "https://github.com/samarthj5696/Unity-Game-Development",
   },
   {
     label: "MERN Movie Project",
-    imgPath: "/MERN_Project.gif",
+    imgPath: "./MERN_Project.gif",
     link: "https://github.com/samarthj5696/Movie_Review_Application_MERN",
   },
   {
     label: "Dynamic Analysis",
-    imgPath: "/Dynamic_analysis.jpg",
+    imgPath: "./Dynamic_analysis.jpg",
     link: "https://github.com/samarthj5696/Dynamic-analysis-of-beam",
   },
   {
     label: "Spring Boot Application",
-    imgPath: "/3.jpg",
+    imgPath: "./3.jpg",
     link: "https://github.com/samarthj5696/Movie-Review-React-SpringBoot-Application",
   },
   {
     label: "Data Management System",
-    imgPath: "/6.jpg",
+    imgPath: "./6.jpg",
     link: "https://github.com/samarthj5696/SpringBootApplication",
   },
 ];
