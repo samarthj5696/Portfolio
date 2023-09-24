@@ -1,23 +1,24 @@
 @font-face {
   font-family: InterBold;
-  src: url(./static/Inter-Bold.ttf);
+  src: url(../static/Inter-Bold.ttf);
 }
 
 @font-face {
   font-family: InterLight;
-  src: url(./static/Inter-Light.ttf);
+  src: url(../static/Inter-Light.ttf);
 }
 @font-face {
   font-family: SemiBold;
-  src: url(./static/Inter-SemiBold.ttf);
+  src: url(../static/Inter-SemiBold.ttf);
 }
 
 @font-face {
   font-family: Regular;
-  src: url(./static/Inter-Regular.ttf);
+  src: url(../static/Inter-Regular.ttf);
 }
+
 body {
-  background-image: url("./public/20.png");
+  background-image: url("../public/20.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -25,8 +26,9 @@ body {
 }
 
 .background {
-  padding: 100px;
-  padding-top: 20px;
+  padding: 0px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .block-background {
@@ -36,8 +38,8 @@ body {
   font-size: 2rem;
   padding: 40px;
   margin-bottom: 80px;
-  margin-top: 80px;
-  box-shadow: 0 0 30px 0.01px white;
+  margin-top: 50px;
+  box-shadow: 0 0 15px 0.01px white;
   /* margin: 80px; */
 }
 
@@ -298,12 +300,23 @@ body {
 }
 
 #preloader {
-  background: black url(./galaxy.gif) no-repeat center center;
+  background: black url(../public/galaxy.gif) no-repeat center center;
   background-size: 20%;
   height: 100%;
   width: 100%;
   position: fixed;
   z-index: 100;
+}
+
+.bottomText {
+  display: flex;
+  color: rgb(255, 255, 255, 0.4);
+  justify-content: center;
+  align-items: center;
+  background: rgb(0, 0, 0, 1);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 0 0 30px 20px black;
 }
 
 /* text animation */

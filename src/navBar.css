@@ -1,0 +1,28 @@
+.text {
+  color: white;
+  text-decoration: none;
+  display: inline;
+  margin-right: 30px;
+}
+
+.navObject {
+  padding: 10px;
+  transition-duration: 0.5s;
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
+
+.icon {
+  width: 30px;
+  margin-right: 30px;
+  display: inline;
+}
+
+.navObject:hover {
+  transform: translateY(-2px);
+  background-color: rgba(255, 255, 255, 0.121);
+  border-width: 0 px;
+  border-radius: 5px;
+  color: #ffffff;
+}
