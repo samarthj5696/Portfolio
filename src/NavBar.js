@@ -16,7 +16,7 @@ function NavBar() {
       }}
     >
       <div style={{ display: "inline" }}>
-        <img src="/19.png" className="icon"></img>
+        <img src="19.png" className="icon"></img>
         <div style={{ display: "inline" }}>
           {pages.map((page) => (
             <a href={"#" + page} className="text">
